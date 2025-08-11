@@ -7,3 +7,5 @@ mss
 opencv-python
 requests_html
 lxml_html_clean
+redis
+async_timeout
