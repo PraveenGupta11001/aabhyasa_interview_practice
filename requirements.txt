@@ -11,3 +11,8 @@ redis
 async_timeout
 
 celery[redis]
+
+
+spacy # nltk works
+pdfplumber # pdf extractor
+pydantic # structure output format
