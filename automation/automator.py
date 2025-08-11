@@ -83,8 +83,9 @@ async def main():
     cached_data = redis_client.get("form_data")
     if cached_data:
         cached_data = json.loads(cached_data)
-        use_cache = input("[?] Use saved data? (y/n): ").strip().lower()
-        if use_cache == 'y':
+        # use_cache = input("[?] Use saved data? (y/n): ").strip().lower()
+        # if use_cache == 'y':
+        if True:
             input_data = cached_data
             print('please go to browser!!!')
             time.sleep(3)
