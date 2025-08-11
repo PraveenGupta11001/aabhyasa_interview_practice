@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pyautogui
+pytesseract
+Pillow
+mss
+opencv-python
+requests_html
+lxml_html_clean
